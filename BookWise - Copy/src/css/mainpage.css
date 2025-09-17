@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* MAIN PAGE SECTION */
+.main-page {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    gap: 3rem;
+}
+
+/* MAIN PAGE FIRST SECTION */
+.main-page-first-section {
+    text-align: center;
+    align-items: center;
+}
+
+#web-title {
+    color: #FFFFFF;
+    font-size: 4rem;
+}
+
+#web-slogan {
+    font-size: 1.8rem;
+    color: #FFFFFF;
+}
+
+.title-container {
+    margin-bottom: 4rem;
+}
+
+#user-book-input {
+    width: 18rem;
+    border-radius: 0.5rem;
+    height: 2rem;
+    padding-left: 1rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    border-style: none;
+}
+
+#user-add {
+    width: 19rem;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    border-style: none;
+    color: #FFFFFF;
+    background-color: gray;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+
+#user-submit:hover {
+    text-decoration: underline;
+}
+
+#made-by-section {
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* MAIN PAGE SECOND SECTION */
+.main-page-second-section {
+    width: 40vw;
+    height: 60vh;
+    background-color: grey;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+.book-list {
+    list-style-type: none;
+    justify-content: left;
+    text-align: left;
+    margin: 2rem 1rem 2rem 1.5rem;
+}
+
+.book-list > li {
+    margin-bottom: 0.2rem;
+    font-weight: bold;
+}
+
+.sec-two-title-container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.sec-two-title-container > img {
+    width: 3rem;
+}
+
+#user-submit {
+    width: 19rem;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    border-style: none;
+    color: gray;
+    background-color: #FFFFFF;
+    padding: 0.2rem;
+    cursor: pointer;
+}
