@@ -1,0 +1,40 @@
+.bookfacts-container {
+    padding: 4rem;
+   max-width: 100vw;
+   background-color: #FFFFFF;
+}
+
+.facts-display {
+    color: #FFFFFF;
+    background-color: #60993E;
+    padding: 2rem 3rem 2rem 4.5rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    line-height: 1.75rem;
+}
+
+.facts-display > p {
+    font-size: 1.5rem;
+}
+
+.facts-display ul li {
+    list-style-type: none;
+    margin-left: 2rem;
+}
+
+.facts-display ul li:last-child {
+    margin-bottom: 2rem;
+}
+
+.facts-title {
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.facts-title > img {
+    width: 3rem;
+}
