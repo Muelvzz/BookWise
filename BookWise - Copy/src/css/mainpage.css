@@ -113,3 +113,41 @@
     padding: 0.2rem;
     cursor: pointer;
 }
+
+@media (max-width: 600px) {
+    .main-page {
+        flex-direction: column;
+    }
+    .main-page-first-section {
+        margin-top: 2rem;
+    }
+    .main-page-second-section {
+        width: 60vw;
+        height: 40vh;
+        margin-bottom: 2rem;
+    }
+    #user-submit {
+        width: 10rem;
+    }
+}
+
+@media (max-width: 450px) {
+   #web-title {
+    color: #FFFFFF;
+    font-size: 3rem;
+    }
+    #web-slogan {
+        font-size: 1.25rem;
+        color: #FFFFFF;
+    }
+    #user-book-input {
+        width: 10rem;
+        border-radius: 0.25rem;
+    }
+    #user-add {
+        width: 11rem;
+    } 
+    .sec-two-title-container > h1 {
+        font-size: 1.5rem;
+    }
+}

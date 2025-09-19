@@ -23,5 +23,4 @@ export async function getBookFactsFromHuggingFace(booksArr) {
         console.error("Error getting book facts:", err.message)
         return "Sorry, I couldn't retrieve book facts at the moment. Please try again later."
     }
-
 }

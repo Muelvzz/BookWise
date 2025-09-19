@@ -6,7 +6,7 @@
 
 .facts-display {
     color: #FFFFFF;
-    background-color: #60993E;
+    background-color: hsl(98, 42%, 42%);
     padding: 2rem 3rem 2rem 4.5rem;
     margin-top: 2rem;
     border-radius: 2rem;
@@ -37,4 +37,34 @@
 
 .facts-title > img {
     width: 3rem;
+}
+
+@media (max-width: 600px) {
+    .facts-title > h1 {
+        font-size: 2rem;
+    }
+    .facts-display {
+        padding: 2rem;
+    }
+    .facts-display ul li {
+        margin-left: 1rem;
+    }
+    .bookfacts-container {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .bookfacts-container {
+        padding: 0;
+    }
+    .facts-display {
+        border-radius: 0;
+    }
+    .facts-title > h1 {
+        font-size: 1.5rem;
+    }
+    .facts-display > p {
+        font-size: 1.25rem;
+    }
 }
